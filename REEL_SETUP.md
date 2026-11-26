@@ -18,8 +18,9 @@ The Playbook, README, Master Prompt and the 31-page Handbook. That covers R15/R1
 
 The setup script reinstalls all of the above in every fresh session. It hasn't been tested yet: it runs for the first time when a new session starts on this environment.
 
-## Still needed
-- **The HealthReelKit code only (no videos).** I need the `.py`/`.json` files from `engine/`, `looks/` and `explainer/`, plus the small shot-list and notes files in `reference/`. The rendered reels aren't needed. The effects repo has only fx.py, not your reel engine (cut_base, look, mid/tail_new captions, mix + gen_lofi, thumb…). Without it I'd rebuild the engine from the Handbook's descriptions: similar output, but not your tuned version.
+## Kit status
+- ✅ HealthReelKit received (26 Nov), ported to Linux and dry-run end to end (see `HealthReelKit/LINUX_CLOUD.md`).
+- ⚠️ Not committed: this repo is public. The kit needs a private home.
 
 ## Decisions recorded
 - **Naming:** reels go in the local folder you share, named `R1 - <Reel topic>`, `R2 - <Reel topic>`, … Numbering restarts at R1 there, replacing the old `D:\Claude\R<n>` scheme.
